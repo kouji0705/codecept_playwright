@@ -1,3 +1,4 @@
+// biome-ignore lint/complexity/useArrowFunction: <explanation>
 module.exports = function () {
 	return actor({});
 };

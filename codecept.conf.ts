@@ -3,7 +3,7 @@ import { setHeadlessWhen } from "@codeceptjs/configure";
 setHeadlessWhen(false); // ヘッドレスモードを切り替える
 
 export const config = {
-	tests: "./*_test.ts",
+	// tests: "./*_test.ts",
 	output: "./output",
 	helpers: {
 		Playwright: {
